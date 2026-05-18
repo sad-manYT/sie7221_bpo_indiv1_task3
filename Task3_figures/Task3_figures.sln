@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3_figures", "Task3_figures\Task3_figures.csproj", "{91D9CB8E-17BA-48E4-A8C4-E44E7723D5AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3_Figures", "Task3_figures\Task3_Figures.csproj", "{91D9CB8E-17BA-48E4-A8C4-E44E7723D5AE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{D41F0280-D3A3-4C24-8DC4-21016119E574}"
 	ProjectSection(SolutionItems) = preProject
