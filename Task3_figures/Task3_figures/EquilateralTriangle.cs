@@ -5,12 +5,12 @@ namespace Task3_Figures
     /// <summary>
     /// Представляет равносторонний треугольник.
     /// </summary>
-    public class EquilateralTriangle : Triangle
+    public class EquilateralTriangle : IsoscelesTriangle
     {
         public double Side { get; set; }
 
         public EquilateralTriangle(
-            double side)
+            double side) : base(side, Math.Sqrt(3) / 2 * side)
         {
             Side = side;
         }
