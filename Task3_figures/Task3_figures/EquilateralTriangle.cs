@@ -12,6 +12,11 @@ namespace Task3_Figures
         public EquilateralTriangle(
             double side) : base(side, Math.Sqrt(3) / 2 * side)
         {
+            if (side <= 0)
+            {
+                throw new ArgumentException(
+                    "Сторона должна быть больше нуля.");
+            }
             Side = side;
         }
 

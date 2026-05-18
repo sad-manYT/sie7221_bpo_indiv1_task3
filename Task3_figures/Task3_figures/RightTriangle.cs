@@ -14,6 +14,16 @@ namespace Task3_Figures
             double legA,
             double legB)
         {
+            if (legA <= 0)
+            {
+                throw new ArgumentException(
+                    "Катет А должен быть больше нуля.");
+            }
+            if (legB <= 0)
+            {
+                throw new ArgumentException(
+                    "Катет B должен быть больше нуля.");
+            }
             LegA = legA;
             LegB = legB;
         }

@@ -14,6 +14,16 @@ namespace Task3_Figures
             double baseSide,
             double height)
         {
+            if (baseSide <= 0)
+            {
+                throw new ArgumentException(
+                    "Основание должно быть больше нуля.");
+            }
+            if (height <= 0)
+            {
+                throw new ArgumentException(
+                    "Высота должна быть больше нуля.");
+            }
             BaseSide = baseSide;
             Height = height;
         }
